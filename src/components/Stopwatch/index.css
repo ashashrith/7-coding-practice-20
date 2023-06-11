@@ -1,0 +1,110 @@
+/* Write CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.container {
+  margin: 20px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #333333;
+}
+
+.time-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: auto;
+  height: auto;
+}
+
+.time {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  height: 15px;
+  width: 15px;
+  background-size: cover;
+  margin-right: 8px;
+}
+
+.t {
+  font-size: 10px;
+  color: #333333;
+  font-weight: 700;
+}
+
+.timer {
+  font-size: 22px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.btn-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.start {
+  background-color: #1db05f;
+  height: 22px;
+  width: 30px;
+  font-size: 8px;
+  color: white;
+  border-width: 0px;
+  margin-right: 8px;
+  border-radius: 3px;
+}
+
+.stop {
+  background-color: #ef0d36;
+  height: 22px;
+  width: 30px;
+  font-size: 8px;
+  color: white;
+  border-width: 0px;
+  margin-right: 8px;
+  border-radius: 3px;
+}
+
+.reset {
+  background-color: #eaa800;
+  height: 22px;
+  width: 32px;
+  font-size: 8px;
+  color: white;
+  border-width: 0px;
+  margin-right: 8px;
+  border-radius: 3px;
+}
+
+.last {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  background-size: cover;
+  width: 100vh;
+  height: 100%;
+}
